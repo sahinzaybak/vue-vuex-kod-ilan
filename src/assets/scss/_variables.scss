@@ -1,0 +1,99 @@
+@mixin bp($point) {
+  @if $point == desktop-l {
+    @media (max-width: 1920px) {
+      @content;
+    }
+  } @else if $point == r-desktop-l {
+    @media (min-width: 1920px) {
+      @content;
+    }
+  } @else if $point == desktop-m {
+    @media (max-width: 1500px) {
+      @content;
+    }
+  } @else if $point == r-desktop-m {
+    @media (min-width: 1500px) {
+      @content;
+    }
+  } @else if $point == mac {
+    @media (max-width: 1440px) {
+      @content;
+    }
+  } @else if $point == global {
+    @media (max-width: 1366px) {
+      @content;
+    }
+  } @else if $point == desktop {
+    @media (max-width: 1200px) {
+      @content;
+    }
+  } @else if $point == small-desktop {
+    @media (max-width: 1024px) {
+      @content;
+    }
+  } @else if $point == r-tablet {
+    @media (min-width: 992px) {
+      @content;
+    }
+  } @else if $point == tablet {
+    @media (max-width: 768px) {
+      @content;
+    }
+  } @else if $point == mobile {
+    @media (max-width: 576px) {
+      @content;
+    }
+  } @else if $point == r-global {
+    @media (max-width: 1180px) {
+      @content;
+    }
+  } @else if $point == r-desktop {
+    @media (min-width: 1200px) {
+      @content;
+    }
+  } @else if $point == desktop-a {
+    @media (max-width: 1280px) {
+      @content;
+    }
+  } @else if $point == r-tablet {
+    @media (min-width: 1024px) {
+      @content;
+    }
+  } @else if $point == r-tablet-small {
+    @media (min-width: 768px) {
+      @content;
+    }
+  } @else if $point == r-mobile {
+    @media (min-width: 576px) {
+      @content;
+    }
+  } @else if $point == nav {
+    @media (max-width: 900px) {
+      @content;
+    }
+  } @else if $point == r-nav {
+    @media (min-width: 900px) {
+      @content;
+    }
+  } @else if $point == mobile-small {
+    @media (max-width: 480px) {
+      @content;
+    }
+  } @else if $point == mobile-xsmall {
+    @media (max-width: 320px) {
+      @content;
+    }
+  }
+}
+
+@mixin dont-touch {
+  user-select: none;
+  pointer-events: none;
+}
+
+
+
+
+
+
+
