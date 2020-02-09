@@ -8,6 +8,14 @@ Oluşturduğum json dosyası : https://kodilan-d27d8.firebaseio.com/data.json
 
 > A Vue.js project
 
+### Components
+  - Vue.js
+  - VUEX
+  - BEM Methodology
+  - Firebase
+  - jQuery
+  - SCSS
+
 ## Build Setup
 
 ``` bash
