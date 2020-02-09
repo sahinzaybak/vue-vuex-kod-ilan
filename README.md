@@ -1,6 +1,6 @@
 # KOD İLAN VUE / VUEX
 
-VUEX ile yapmış olduğum KOD İLAN Sitesi
+Fatih Acet'in yapmış olduğı https://kodilan.com/ sitesinin benzerini VUEX kullanarak kodladım. 
 
 > A Vue.js project
 
