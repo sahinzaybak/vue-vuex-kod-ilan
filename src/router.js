@@ -5,6 +5,7 @@ import AdvertDetail from './views/AdvertDetail'
 import CompanyDetail from './views/CompanyDetail'
 import DistrictDetail from './views/DistrictDetail'
 import TagDetail from './views/TagDetail'
+import AddAdvert from './views/AddAdvert'
 
 Vue.use(Router)
 
@@ -43,6 +44,11 @@ export default new Router({
       path: '/etiket/:tagSlug',
       name: 'tagDetail',
       component: TagDetail,
+    },
+    {
+      path: '/ilan-ekle/',
+      name: 'AddAdvert',
+      component: AddAdvert,
     },
   ]
 })

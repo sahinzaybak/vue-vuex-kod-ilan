@@ -55,6 +55,23 @@ const actions = {
   },
   fetchTagJobList({ commit }, setTagName) {
     commit("SET_TAG_LİST", setTagName);
+  },
+  fetchSendForms({ commit }, payload) {
+    service.fetchSendForm(
+      payload.setMail,
+      payload.setPosition,
+      payload.setLocation,
+      payload.setURL,
+      payload.setTags,
+      payload.setType,
+      payload.setCompanyName,
+      payload.setLogo,
+      payload.setWebAdress,
+      payload.setLinkedin,
+      payload.setContent
+    ).then(value => {
+        console.log(value)
+    })
   }
 }
 

@@ -90,7 +90,6 @@ export default {
   }
 };
 </script>
-
 <style lang="scss">
 .jobs {
   padding-bottom: 150px;

@@ -37,6 +37,7 @@ export default {
   },
   methods: {
     ...mapActions(["fetchCompanyJobList"]),
+    
     setCompanyJobList() {
       this.fetchCompanyJobList(this.company);
     }

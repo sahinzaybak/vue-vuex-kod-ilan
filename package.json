@@ -10,6 +10,7 @@
     "test:unit": "vue-cli-service test:unit"
   },
   "dependencies": {
+    "@johmun/vue-tags-input": "^2.1.0",
     "@trevoreyre/autocomplete": "^2.0.3",
     "@trevoreyre/autocomplete-js": "^2.0.3",
     "axios": "^0.18.1",
@@ -23,6 +24,7 @@
     "vue-clickaway": "^2.2.2",
     "vue-jquery": "^1.0.6",
     "vue-router": "^3.0.1",
+    "vue2-editor": "^2.10.2",
     "vuex": "^3.0.1"
   },
   "devDependencies": {
