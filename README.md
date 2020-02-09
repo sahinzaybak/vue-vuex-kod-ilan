@@ -2,7 +2,7 @@
 
 Fatih Acet'in yapmış olduğu https://kodilan.com/ sitesinin benzerini VUEX kullanarak kodlamak istedim. 
 Veritabanı olarak firebase kullandım. POST VE GET işlemlerini yaparken axios'tan faydalandım. 
-Kendi json dosyamı oluşturup firebase veritbanına attım ve böylelikle elimde verileri GET ve  POST yapabileceğim bir veritabanı oluşmuş oldu.
+Kendi json dosyamı oluşturup firebase veritabanına attım ve böylelikle elimde verileri GET ve  POST edebileceğim bir veritabanı oluşmuş oldu.
 
 Oluşturduğum json dosyası : https://kodilan-d27d8.firebaseio.com/data.json
 
