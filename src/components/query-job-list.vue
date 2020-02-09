@@ -58,6 +58,7 @@
 
 <script>
 import { mapGetters, mapState, mapActions } from "vuex";
+
 export default {
   name: "joblist",
   props: ["setJobList"],
