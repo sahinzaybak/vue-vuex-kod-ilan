@@ -13,7 +13,7 @@
     "@johmun/vue-tags-input": "^2.1.0",
     "@trevoreyre/autocomplete": "^2.0.3",
     "@trevoreyre/autocomplete-js": "^2.0.3",
-    "axios": "^0.18.1",
+    "axios": "^0.21.1",
     "firebase": "^7.3.0",
     "register-service-worker": "^1.5.2",
     "swiper": "^5.2.0",
