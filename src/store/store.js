@@ -69,9 +69,7 @@ const actions = {
       payload.setWebAdress,
       payload.setLinkedin,
       payload.setContent
-    ).then(value => {
-        console.log(value)
-    })
+    )
   }
 }
 
